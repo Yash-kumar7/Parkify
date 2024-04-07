@@ -1,40 +1,56 @@
-.home-container {
-  background-image: url('../public/smart-parking.jpeg'); /* Set the background image */
-  background-size: cover; /* Cover the entire container with the background image */
-  background-position: center; /* Center the background image */
-  height: 100vh; /* Set the height of the container to 100% of the viewport height */
-  display: flex; /* Use flexbox to align items */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  padding: 20px; /* Add padding for spacing */
-  }
-  
-  .auth-options {
-    margin-top: 20px;
-  }
-  
-  .auth-option {
-    margin: 0 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .auth-option:hover {
-    background-color: #0056b3;
-  }
+/* Home.css */
 
-  h1 {
-    color: #ff6347; /* Change the color of the heading */
-  }
-  
-  h3 {
-    color: #4682b4; /* Change the color of the paragraph text */
-  }
-  
-  
+.home-container {
+  background-image: url('../public/smart-parking.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.welcome-message {
+  margin-bottom: 50px;
+}
+
+.auth-options {
+  margin-top: 20px;
+  z-index: 1; /* Ensure the auth options appear above the chat button */
+}
+
+.auth-option {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-option:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 80px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.chat-button {
+  position: absolute; /* Position the chat button relative to its closest positioned ancestor */
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; /* Ensure the chat button appears on top of other content */
+}
