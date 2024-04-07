@@ -1,0 +1,40 @@
+.home-container {
+  background-image: url('../public/smart-parking.jpeg'); /* Set the background image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px; /* Add padding for spacing */
+  }
+  
+  .auth-options {
+    margin-top: 20px;
+  }
+  
+  .auth-option {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-option:hover {
+    background-color: #0056b3;
+  }
+
+  h1 {
+    color: #ff6347; /* Change the color of the heading */
+  }
+  
+  h3 {
+    color: #4682b4; /* Change the color of the paragraph text */
+  }
+  
+  

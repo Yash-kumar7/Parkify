@@ -1,0 +1,61 @@
+/* form.css */
+
+/* Apply styles to the root container */
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  align-items: center; /* Align items vertically */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  margin-bottom: 20px; /* Add margin at the bottom */
+  height: 100vh; /* Set the height to 100% of the viewport */
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+}
+
+/* Style the form */
+.form {
+  width: 100%; /* Set width to 100% */
+  max-width: 400px; /* Set maximum width */
+}
+
+/* Style the form header */
+.form-header {
+  margin-bottom: 20px; /* Add margin at the bottom */
+  text-align: center; /* Center the text */
+}
+
+/* Style the form fields */
+.form-field {
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Style the form inputs */
+.form-input {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+/* Style the submit button */
+.submit-btn {
+  width: 100%; /* Set width to 100% */
+  padding: 10px; /* Add padding for spacing */
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add transition effect for background color */
+}
+
+/* Style the submit button on hover */
+.submit-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Style the error message */
+.error-message {
+  color: red; /* Set color for error message */
+}

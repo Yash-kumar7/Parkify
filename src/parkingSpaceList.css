@@ -1,0 +1,41 @@
+.parking-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .parking-table th, .parking-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .parking-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .parking-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .parking-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .connect-wallet-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  

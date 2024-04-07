@@ -1,0 +1,13 @@
+.background {
+  background-image: url('https://source.unsplash.com/random?wallpapers');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 600px) {
+  .background {
+    display: block;
+  }
+}
